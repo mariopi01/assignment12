@@ -7,6 +7,7 @@ import CreatePost from './pages/CreatePost';
 import Profile from './pages/Profile';
 import SearchUsers from './pages/SearchUsers';
 import PrivateRoute from './components/PrivateRoute';
+import FollowList from './pages/FollowList';
 
 
 // Tambahkan import
@@ -31,12 +32,18 @@ export default function App() {
           <Route path="/create" element={<CreatePost />} />
           <Route path="/saved" element={<SavedPosts />} />
           <Route path="/posts/:id" element={<PostDetail />} />
+          <Route path="/users/:username/followers" element={<FollowList />} />
+          <Route path="/users/:username/following" element={<FollowList />} />
           
           {/* Profile Route: Bisa handle '/me' atau '/users/:username' */}
           <Route path="/me" element={<Profile />} />
           <Route path="/users/:username" element={<Profile />} />
+          <Route path="/me/followers" element={<FollowList />} />
+          <Route path="/me/following" element={<FollowList />} />
         </Route>
       </Route>
     </Routes>
   );
 }
+
+
