@@ -384,7 +384,7 @@ export default function Profile() {
   const isMe = profile.isMe || (authUser?.username === profile.username);
 
   return (
-    <div className="min-h-screen bg-[#242424] pb-20">
+    <div className="min-h-screen bg-[#000000] pb-20">
       <Header />
 
       {/* CONTAINER UTAMA */}

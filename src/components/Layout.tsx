@@ -107,7 +107,7 @@ import { Outlet, Link } from 'react-router-dom';
 
 export default function Layout() {
   return (
-    <div className="min-h-screen bg-[#242424]">
+    <div className="min-h-screen bg-[#000000]">
       
       {/* MAIN CONTENT AREA */}
       {/* Tambahkan padding-bottom (pb-32) agar konten paling bawah tidak tertutup navigation bar */}

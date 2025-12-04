@@ -182,7 +182,7 @@ export default function CreatePost() {
   });
 
   return (
-    <div className="min-h-screen bg-[#242424]">
+    <div className="min-h-screen bg-[#000000]">
       <Header />
 
       {/* CONTAINER UTAMA */}
