@@ -988,7 +988,7 @@ export default function EditProfileModal({ user, onClose }: EditProfileProps) {
   });
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#000000] overflow-y-auto">
+    <div className="fixed inset-0 z-100 bg-[#000000] overflow-y-auto">
       {/* 1. Header Global */}
       <Header />
 

@@ -14,7 +14,7 @@ import FollowList from './pages/FollowList';
 import SavedPosts from './pages/SavedPosts';
 import PostDetail from './pages/PostDetail';
 
-// Di dalam <Route element={<Layout />}> ...
+
 
 
 export default function App() {
